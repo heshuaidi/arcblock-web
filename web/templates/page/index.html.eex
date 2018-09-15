@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h2><%= gettext "欢迎来到 %{name}", name: "币圈头条!" %></h2>
+  <p class="lead">一个通往币圈的魔力空间<br />随时随地帮您捕捉币圈趣事</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>Play with Arcblock</h4>
+    <ul>
+      <li>
+        <a href="https://ocap.arcblock.io/">Play!</a>
+      </li>
+      <li>
+        <a href="https://www.arcblock.io/ch/whitepaper/">White Paper</a>
+      </li>
+      <li>
+        <a href="https://github.com/arcBlock/">ArcBlock Github</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4>My Playground</h4>
+    <ul>
+      <li>
+        <a href="/arcblock_web/interestThing">币圈新鲜事</a>
+      </li>
+      <li>
+        <a href="/arcblock_web/concernList">关注列表</a>
+      </li>
+      <li>
+        <a href="/arcblock_web/surprise">期待惊喜</a>
+      </li>
+    </ul>
+  </div>
+</div>
